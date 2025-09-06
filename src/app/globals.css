@@ -103,8 +103,8 @@
   --font-mono: var(--font-geist-mono);
 }
 
-/* @custom-variant dark (&:where(.dark, .dark *));
-@custom-variant light (&:where(.light, .light *)); */
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant light (&:where(.light, .light *));
 
 body {
   background: hsl(var(--background));

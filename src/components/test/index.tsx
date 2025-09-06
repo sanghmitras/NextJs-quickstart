@@ -8,7 +8,7 @@ export default function Home() {
           <div className="lg:text-3xl font-bold underline sm:text-xl  text-primary dark:text-muted-foreground text-center">
             Hello, I can be your Nextjs developer
           </div>
-          <div className="text-sm text-primary flex gap-2 items-center">
+          <div className="text-sm text-primary dark:text-pink-500 flex gap-2 items-center">
             connect with me on Github:{" "}
             <ExternalLink
               className="w-4 h-4 cursor-pointer"
